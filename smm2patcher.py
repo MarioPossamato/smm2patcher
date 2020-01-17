@@ -10,12 +10,12 @@ def remove_timer_check(): # Removes the annoying 'invalid time limit' check
             smm2data = smm2binary.read()
             smm2data = bytearray(smm2data)
             if main_binary == '1.0.0':
-                smm2data[0x5AA7CF:8] = b'\x1f\x20\x03\xd5'
+                smm2data[0x5AA7CF:0x5AA7D3] = b'\x1f\x20\x03\xd5'
                 with open(smm2patcher,'wb') as smm2binary:
                     smm2binary.write(smm2data)
                     print('Nop Instruction Successfully Patched To 0x7100adffe4 [Offset 0x5AA7CF]!')
             if main_binary == '1.0.1':
-                smm2data[0x5DF341:8] = b'\x1f\x20\x03\xd5'
+                smm2data[0x5DF341:0x5AA7D3] = b'\x1f\x20\x03\xd5'
                 with open(smm2patcher,'wb') as smm2binary:
                     smm2binary.write(smm2data)
                     print('Nop Instruction Successfully Patched To 0x7100b3ce00! [Offset 0x5DF341]')
@@ -52,7 +52,7 @@ def change_koopa_state(state_int): # Change the state of a Koopa Troopa when spu
                 state = b'\x01\x02\x80\x52'
             if state_int > 10:
                 state = b'\x01\x02\x80\x52'
-            smm2data[0x39DA3F:12] = state
+            smm2data[0x39DA3F:0x39DA43] = state
             with open(smm2patcher,'wb') as smm2binary:
                 smm2binary.write(smm2data)
                 print(str(state) + ' written to 0x71007b031c [0x39DA3F]')
