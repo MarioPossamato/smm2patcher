@@ -10,11 +10,8 @@ A code patcher for Super Mario Maker 2 binaries.
 [Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
 
 ## Running Smm2Patcher
-Place smm2patcher.py and your main Super Mario Maker 2 binary in `C:\` and run the following:
-```
-C:\Users\User1\AppData\Local\Programs\Python\Python37\python.exe C:\smm2patcher.py C:\main #
-```
-Swap # for the version of the Super Mario Maker 2 binary specified, see *What are the supported game versions?*
+Open the `launcher.py` script included, choose your binary, and input a supported game version.  
+For more info on supported game versions, see *What are the supported game versions?*
 
 ## Where do I get help/support?
 [My Discord Server](https://discord.gg/8wx8uQF)
