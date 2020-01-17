@@ -1,5 +1,5 @@
 # Smm2Patcher
-A code patcher for Super Mario Maker 2 binaries.
+A code patcher for Super Mario Maker 2 binaries. (Edit: Patching Doesn't Work Correctly Yet, But The Errors Are Being Researched...)
 
 ## What are the supported game versions?
 1.0.0  
