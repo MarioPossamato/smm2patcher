@@ -1,4 +1,7 @@
-import sys
+import sys, struct
+
+def float_to_hex(f):
+    return hex(struct.unpack('<I', struct.pack('<f', f))[0])
 
 smm2patcher = sys.argv[1]
 main_binary = sys.argv[2]
