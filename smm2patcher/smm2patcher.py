@@ -5,6 +5,15 @@ from ctypes import *
 def float_to_hex(f):
     return hex(struct.unpack('<I', struct.pack('<f', f))[0])
 
+def double_to_hex(f):
+    return hex(struct.unpack('<Q', struct.pack('<d', f))[0])
+
+def convert(s):
+    i = int(s, 16)
+    cp = pointer(c_int(i))
+    fp = cast(cp, POINTER(c_float))
+    return fp.contents.value
+
 main_binary = sys.argv[1]
 game_version = sys.argv[2]
 
@@ -63,15 +72,3 @@ def change_koopa_state(state_int): # Change the state of a Koopa Troopa when spu
                 print(str(state) + ' written to 0x71007b031c [0x39DA3F]')
     else:
         print('Invalid Version Number!')
-
-def float_to_hex(f):
-    return hex(struct.unpack('<I', struct.pack('<f', f))[0])
-
-def double_to_hex(f):
-    return hex(struct.unpack('<Q', struct.pack('<d', f))[0])
-
-def convert(s):
-    i = int(s, 16)
-    cp = pointer(c_int(i))
-    fp = cast(cp, POINTER(c_float))
-    return fp.contents.value
