@@ -19,3 +19,6 @@ Then, call a function to patch code to the binary, like `remove_timer_check()` f
 ## Who gets credit for this?
 * Mario Possamato for smm2patcher
 * Comex for the patch smm2patcher uses
+
+## Can I get the patches by themselves?
+Yes, you can get them [here](https://cdn.discordapp.com/attachments/622152127883640852/684003454103846922/main_patches.txt)
