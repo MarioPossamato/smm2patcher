@@ -1,9 +1,6 @@
 # smm2patcher
 A code patcher for Super Mario Maker 2 binaries.
 
-## What are the supported game versions?
-2.0.0
-
 ## Pre-Requisites
 [smm2patcher](https://github.com/MarioPossamato/smm2patcher/archive/master.zip)  
 [Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
