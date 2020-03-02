@@ -8,7 +8,7 @@ A code patcher for Super Mario Maker 2 binaries.
 
 ## Running smm2patcher
 Open the `launcher.py` script included in the package, and choose your binary.  
-Then, call a function to patch code to the binary, like `remove_timer_check()` for example.  
+Then, call a function to patch code to the binary, like `Remove_Edit_Mode_Timer_Check()` for example.  
 
 ## Where do I get help/support?
 [My Discord Server](https://discord.gg/8wx8uQF)
