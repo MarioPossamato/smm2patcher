@@ -2,17 +2,16 @@
 A code patcher for Super Mario Maker 2 binaries.
 
 ## What are the supported game versions?
-1.0.0  
-1.0.1
+2.0.0
 
 ## Pre-Requisites
 [smm2patcher](https://github.com/MarioPossamato/smm2patcher/archive/master.zip)  
 [Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
+[nsnsotool](https://github.com/0CBH0/nsnsotool/releases)
 
 ## Running smm2patcher
-Open the `launcher.py` script included in the package, choose your binary, and input a supported game version.  
+Open the `launcher.py` script included in the package, and choose your binary.  
 Then, call a function to patch code to the binary, like `remove_timer_check()` for example.  
-For more info on supported game versions, see *What are the supported game versions?*
 
 ## Where do I get help/support?
 [My Discord Server](https://discord.gg/8wx8uQF)
