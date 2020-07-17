@@ -21,4 +21,4 @@ Then, call a function to patch code to the binary, like `Remove_Edit_Mode_Timer_
 * Comex for the patch smm2patcher uses
 
 ## Can I get the patches by themselves?
-Yes, you can get them [here](https://cdn.discordapp.com/attachments/622152127883640852/684003454103846922/main_patches.txt)
+Yes, you can get them [here](https://cdn.discordapp.com/attachments/685650601589080082/733809142422044764/main_patches.txt)
