@@ -1,14 +1,13 @@
-# smm2patcher
-A code patcher for Super Mario Maker 2 binaries.
+# SMM2Patcher
+A code patcher for the Super Mario Maker 2 binary.
 
 ## Pre-Requisites
-[smm2patcher](https://github.com/MarioPossamato/smm2patcher/archive/master.zip)  
+[SMM2Patcher](https://github.com/MarioPossamato/smm2patcher/archive/master.zip)  
 [Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
 [nsnsotool](https://github.com/0CBH0/nsnsotool/releases)
 
-## Running smm2patcher
-Open the `launcher.py` script included in the package, and choose your binary.  
-Then, call a function to patch code to the binary, like `Remove_Edit_Mode_Timer_Check()` for example.  
+## Running SMM2Patcher
+Run ```py -i SMM2Patcher.py main```
 
 ## Where do I get help/support?
 [My Discord Server](https://discord.gg/8wx8uQF)
@@ -17,8 +16,5 @@ Then, call a function to patch code to the binary, like `Remove_Edit_Mode_Timer_
 [My Discord Server](https://discord.gg/8wx8uQF)
 
 ## Who gets credit for this?
-* Mario Possamato for smm2patcher
-* Comex for the patch smm2patcher uses
-
-## Can I get the patches by themselves?
-Yes, you can get them [here](https://cdn.discordapp.com/attachments/685650601589080082/733809142422044764/main_patches.txt)
+* Mario Possamato for SMM2Patcher
+* Comex/Mario Possamato for the patches SMM2Patcher uses
