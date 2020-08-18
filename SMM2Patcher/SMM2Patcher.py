@@ -14,7 +14,7 @@
 # To Find These Offsets Using HxD, Use Ctrl+G (Goto), And Paste In The Offset.  Then, Copy The Data Press Ctrl+B (Paste Overrite).
 # Alternatively, You Can Use HxD's Ctrl+E (Select Block), Paste In The Start And End Offsets, Then Right Click On The Selected Block, Click Fill Selection, Then Place The Data In There To Fill The Selection.
 
-# Please Note That None Of The Modifications In This Script Will Work If Your Copy Of Block.rpx Is Not Decompressed!  Use wiiurpxtool <https://github.com/0CBH0/wiiurpxtool/releases>.
+# Please Note That None Of The Modifications In This Script Will Work If Your Copy Of main Is Not Decompressed!  Use nsnsotool <https://github.com/0CBH0/nsnsotool/releases>.
 
 SMM1PatcherVersion = '0.2'
 
