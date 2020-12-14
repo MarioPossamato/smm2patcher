@@ -24,12 +24,12 @@ import struct
 
 
 # Function To Convert Float To Hex
-def float_to_hex(f):
+def FloatToHex(f):
     return hex(struct.unpack('<I', struct.pack('<f', f))[0])[2:]
 
 # Function To Convert Hex To Float
-def hex_to_float(i):
-    return struct.unpack('!f', int.to_bytes(i, 0x4, 'big'))[0]
+def HexToFloat(i):
+    return struct.unpack('!f', struct.pack('>I', i)))[0]
 
 # Create Dictionaries
 
@@ -43,7 +43,7 @@ dict_1 = {'2.0.0':{'start_offset':0x14D4391, 'end_offset':0x14D4395},'3.0.0':{'s
 dict_2 = {'2.0.0':{'start_offset':0x15924C1, 'end_offset':0x15924C9},'3.0.0':{'start_offset':0x17BA221, 'end_offset':0x17BA229, 'size':0x4,}, 'size':0x4, 'default':0xFC0F1AF8FA6701A9, 'description':'No Corrupt Course Check, Set To 0x200080D2C0035FD6', 'affected_modes':['M1','M3','MW','WU','3W']}
 
 # Create Function To Write Data
-def Modify(x, y, z):
+def Write(x, y, z):
     with open(sys.argv[1],'rb') as file:
         data = bytearray(file.read())
         data[x[str(z)]['start_offset']:x[str(z)]['end_offset']] = int.to_bytes(y)
