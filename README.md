@@ -3,7 +3,7 @@ A code patcher for the Super Mario Maker 2 binary.
 
 ## Pre-Requisites
 [SMM2Patcher](https://github.com/MarioPossamato/smm2patcher/archive/master.zip)  
-[Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your PC
+[Python 3.7](https://www.python.org/downloads/release/python-370/) installed on your computer  
 [nsnsotool](https://github.com/0CBH0/nsnsotool/releases)
 
 ## Running SMM2Patcher
